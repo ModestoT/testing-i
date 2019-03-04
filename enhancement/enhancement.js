@@ -23,11 +23,11 @@ function success(item) {
         newItem.displayName = `[DUO] ${newItem.name}`;
     } else if(newItem.enchancment === 18){
         newItem.displayName = `[TRI] ${newItem.name}`;
-    }else if(newItem.enchancment === 19){
+    } else if(newItem.enchancment === 19){
         newItem.displayName = `[TET] ${newItem.name}`;
-    }else if(newItem.enchancment === 20){
+    } else if(newItem.enchancment === 20){
         newItem.displayName = `[PEN] ${newItem.name}`;
-    }else {
+    } else {
         newItem.displayName = `[+${newItem.enchancment}] ${newItem.name}`;
     }
     
